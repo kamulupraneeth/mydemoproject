@@ -1,0 +1,587 @@
+body
+{
+    overflow-x: hidden;
+}
+
+
+.banner
+{
+    background-image: url("img/banner.jpg");
+    background-size: cover;
+    padding: 8rem 0;
+    text-align: center;
+}
+.admin
+{
+    
+    color: white;
+}
+.menu-button
+{
+    border: 1px solid #008cf1;
+    padding: 14px 16px;
+    border-radius: 50%;
+    color: white;
+    font-size: 25px;
+    
+    background-color: #008cf1;
+    cursor: pointer;
+}
+.dropdown-menu
+{
+    display:none;
+    position: absolute;
+    background-color: #008cf1;
+    min-width: 160px;
+    box-shadow: 0 px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: -100px;
+}
+.dropdown-menu a
+{
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-menu a i
+{
+    color:white;
+}
+
+.dropdown-menu a:hover
+{
+    background-color: #fff;
+    color: #000;
+}
+.dropdown-menu a:hover i
+{
+    color: #000;
+}
+.right-menu
+{
+    display: inline-block;
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    z-index: 999;
+}
+.right-menu:hover .dropdown-menu
+{
+    display: block;
+
+}
+.right-menu:hover .menu-button
+{
+    background-color: #008cf1;
+}
+
+.btn.effect-completed::after,
+.btn.effect-completed::before
+{
+    content: "DEMO";
+    position: relative;
+    transition: all 500ms;
+    
+}
+.btn.effect-completed::after
+{
+    left: -10px;
+}
+.btn.effect-completed
+{
+    overflow: hidden;
+}
+.btn.effect-completed:hover::after
+{
+    left: 100px;
+    visibility: hidden;
+    
+}
+.btn.effect-completed::before
+{
+    content: "\f109";
+    left:-100%;
+    visibility: hidden;
+    font-family: 'Font Awesome 5 Free';
+}
+.btn.effect-completed:hover::before
+{
+    left:30px;
+    visibility: visible;
+    color: white;
+}
+button:nth-child(1)
+{
+    position: relative;
+   top: 0;
+   left:-13px;
+    border:1px solid white;
+    padding: 8px 23px;
+    color: white;
+    background-color: #2c2f34;
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 700;
+}
+
+.btn.buy-completed::after,
+.btn.buy-completed::before
+{
+    content: "BUY NOW";
+    position: relative;
+    transition: all 500ms;
+    
+}
+.btn.buy-completed::after
+{
+    left: -10px;
+    overflow: hidden;
+}
+.btn.buy-completed
+{
+    overflow: hidden;
+}
+.btn.buy-completed:hover::after
+{
+    left: 100px;
+    visibility: hidden;
+    
+}
+.btn.buy-completed::before
+{
+    content: "\f07a";
+    left:-100%;
+    visibility: hidden;
+    font-family: 'Font Awesome 5 Free';
+}
+.btn.buy-completed:hover::before
+{
+    left:30px;
+    visibility: visible;
+    color: white;
+}
+button:nth-child(2)
+{
+    position: relative;
+    top: 0;
+    border:1px solid #e62c43;
+    padding: 8px 23px;
+    color: white;
+    background-color: #e62c43;
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 700;
+}
+.banner-2
+{
+    background-image: url("img/Banner_2.jpg");
+    background-size: cover;
+    
+}
+.banner-2 h2::after
+{
+    border-bottom: 3px solid #e62c43;
+    content: " ";
+    display: block;
+    width: 4%;
+    margin-left: 47%;
+    padding: 2px;
+}
+video
+{
+
+    left: 27%;
+    margin-top: -30px;
+}
+.powerful
+{
+    font-family: 'Roboto Condensed',sans-serif;
+}
+
+.powerful::after
+{
+    border-bottom: 3px solid #e62c43;
+    content: " ";
+    display: block;
+    width: 5%;
+    margin-left: 48%;
+    padding: 2px;
+}
+.all
+{
+    font-family: 'Open Sans',sans-serif;
+    position: relative;
+    top: -25%;
+}
+.laravel
+{
+    border: 3px solid #008cf1;
+    border-radius: 50%;
+    padding: 12px;
+    cursor: pointer;
+    width: 18%;
+    color: #008cf1;
+  
+   
+}
+.core:hover img,.core:hover i
+{
+    transition: 0.9s;
+    transform: rotate(360deg);
+    cursor: pointer;
+    
+}
+.spark
+{
+    border: 3px solid #008cf1;
+    border-radius: 50%;
+    padding:18px 22px;
+    font-size: 29px;
+    color: #008cf1;
+    cursor: pointer;
+}
+.spark-img
+{
+    background-image: url("img/spark.png");
+    background-position: cover;
+}
+.might
+{
+    margin-bottom: 50px;
+}
+.module
+{
+    border: 3px solid #008cf1;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #008cf1;
+}
+
+.core
+{
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+.core:hover {
+    top: -30px;
+  }
+h3
+{
+    font-family: 'Roboto Condensed',sans-serif;
+}
+.adjust
+{
+    margin-top: -7px;
+    font-family: 'Open Sans',sans-serif;
+}
+.event
+{
+    margin-top: 4px;
+}
+.full
+{
+    font-family: 'Open Sans',sans-serif;
+
+}
+#host:hover
+{
+    text-decoration: underline !important;
+}
+.interest
+{
+    background-image: url("img/tablet.jpg");
+    background-size: cover;
+    padding: 7rem 0;
+    background-attachment: fixed;
+    text-align: center;
+}
+.theme
+{
+    color: white;
+    text-align: center;
+    position: relative;
+    font-size: 35px;
+}
+.purchase
+{
+    position: relative;
+    /*top:125px;*/
+    border: 1px solid #e62c43;
+    padding: 8px 23px;
+    color: white;
+    background-color: #e62c43;
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 700;
+    /*left: 600px;*/
+    /*margin-top: 20px;*/
+}
+@keyframes mover
+{
+    0% {
+        transform: translateY(30px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+.move_image
+{
+    
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: mover;
+}
+
+
+
+.awesome
+{
+    background-color: #e8f3ff;
+    position: relative;
+    padding:0px 100px 60px 100px
+}
+.awesome div p:nth-child(1)
+{
+    font-size: 35px;
+}
+.template
+{
+    position: relative;
+    top: -20%;
+}
+.sales
+{
+    margin-top: 5%;
+}
+.look
+{
+    border: 1px solid #e62c43;
+    
+    background-color: #e62c43;
+    position: relative;
+    left: 40%;
+}
+.data
+{
+    margin-top: 15%;
+}
+.invoice
+{
+    margin-top: 10%;
+}
+.moving
+{
+    background-image: url("img/moving.png");
+  
+    transform: translate3d(0px, 0px, -900px) 
+    rotateX(0deg),rotateY(450deg);
+    z-index: -8;
+    transition-duration: 0ms;
+
+}
+.bonus
+{
+    background-color: #c5e2f7;
+}
+.ranking
+{
+    background-color: #72acd6;
+}
+.demo
+{
+    padding: 10px 28px;
+    border: 1px solid white;
+    background-color: #72acd6;
+    color: white;
+    font-weight: 700;
+    margin: 10px;
+}
+.buy
+{
+    padding: 10px 28px;
+    border: 1px solid #e62c43;
+    background-color: #e62c43;
+    color: white;
+    font-weight: 700;
+}
+.go-to-top
+{
+    border: 1px solid #008cf1;
+    border-radius: 50%;
+    width: 2%;
+    padding: 18px 30px 16px 20px;
+    color: white;
+    background-color: #008cf1;
+    cursor: pointer;
+    float: right;
+     margin-right: 10px;  
+    
+}
+.go-to-top i
+{
+  display: block;
+    margin-left: auto;
+   
+}
+.footer span:nth-child(1)
+{
+    color: white;
+}
+.footer span:nth-child(2)
+{
+    color: #e66c6a;
+}
+.footer span:nth-child(4)
+{
+    color: white;
+}
+.footer span:nth-child(5)
+{
+    color: #e66c6a;
+}
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    /*width: 300px !important;
+    height: 300px !important;*/ 
+      overflow:hidden;
+  }
+
+
+  .swiper-slide img {
+  
+    width:100%;
+    display: block;
+  }
+
+  .video-section
+  {
+      width: 50%;
+      margin: auto;
+      display: block;
+  }
+  @media (min-width: 992px) and (max-width: 1199px)
+   { 
+        .video-section
+        {
+            margin-left: auto;
+        }
+        .laravel
+        {
+            width: 24%;
+        }
+        .design
+        {
+            margin-top: -3px;
+        }
+
+
+    }
+    @media (min-width: 768px) and (max-width: 992px)
+    {
+        .laravel
+        {
+            width:35%;
+        }
+        .full
+        {
+            margin-top: 32px;
+        }
+        .multiple-section
+        {
+            padding-top: 7px;
+        }
+        .colors-portion
+        {
+            margin-top: 35px;
+        }
+        .move_image
+        {
+            position: relative;
+            top: 100px;
+        }
+        .look
+        {
+            left: 30%;
+        }
+        .skin-section
+        {
+            margin-top: -12px;
+        }
+        .file-section
+        {
+            margin-top:15px;
+        }
+    }
+    @media (min-width: 320px) and (max-width: 576px)
+    {
+        .video-section
+        {
+            width:84%;
+        }
+        .banner
+        {
+            padding: 5rem 0;
+        }
+        .laravel
+        {
+            width:33%;
+        }
+        .template
+        {
+            top: 0;
+        }
+        .powerful::after
+        {
+            margin-left: 25%;
+            width:50%;
+        }
+        .powerful
+        {
+            padding: 20px 0;
+            margin: 0 !important;
+        }
+        .awesome
+        {
+            padding: 15px 15px 50px 15px;
+            text-align: center;
+        }
+        .look
+        {
+            left: 0;
+        }
+        .move_image
+        {
+            margin-left: 22px;
+        }
+        .shot-section
+        {
+            margin: 0 !important;
+        }
+       
+        .all
+        {
+            top:-12%;
+        }
+        .banner-2 h2::after
+        {
+            width:25%;
+            margin-left: 40%;
+        }
+
+    }
