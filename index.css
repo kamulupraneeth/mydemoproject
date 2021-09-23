@@ -475,6 +475,20 @@ h3
       margin: auto;
       display: block;
   }
+@media (min-width: 1199px) and (max-width: 1440px)
+   { 
+       
+        .laravel
+        {
+            width: 24%;
+        }
+        .design
+        {
+            margin-top: -3px;
+        }
+
+
+    }
   @media (min-width: 992px) and (max-width: 1199px)
    { 
         .video-section
